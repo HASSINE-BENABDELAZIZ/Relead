@@ -1,0 +1,230 @@
+2022-07-05 13:31:17,257:::INFO --- root  :: --------------------------------
+2022-07-05 13:31:17,257:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:31:17,265:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 13:31:17,266:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:31:17,555:::INFO --- root  :: --------------------------------
+2022-07-05 13:31:17,555:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:31:17,560:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:31:17,562:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 13:31:34,220:::INFO --- root  :: SERVER DOWN
+2022-07-05 13:31:34,244:::INFO --- root  :: SERVER DOWN
+2022-07-05 13:31:37,229:::INFO --- root  :: --------------------------------
+2022-07-05 13:31:37,230:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:31:37,237:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 13:31:37,238:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:31:37,492:::INFO --- root  :: --------------------------------
+2022-07-05 13:31:37,492:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:31:37,497:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:31:37,499:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 13:33:07,150:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-05 13:33:07,183:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:33:07,455:::INFO --- root  :: --------------------------------
+2022-07-05 13:33:07,455:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:33:09,498:::INFO --- root  :: SERVER DOWN
+2022-07-05 13:33:09,520:::INFO --- root  :: SERVER DOWN
+2022-07-05 13:33:13,144:::INFO --- root  :: --------------------------------
+2022-07-05 13:33:13,144:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:33:13,146:::INFO --- werkzeug  ::  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-05 13:33:41,181:::INFO --- root  :: SERVER DOWN
+2022-07-05 13:33:44,979:::INFO --- root  :: --------------------------------
+2022-07-05 13:33:44,979:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:33:44,986:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 13:33:44,987:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:33:45,243:::INFO --- root  :: --------------------------------
+2022-07-05 13:33:45,243:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:33:45,248:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:33:45,250:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 13:51:52,684:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-05 13:51:52,709:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:51:52,973:::INFO --- root  :: --------------------------------
+2022-07-05 13:51:52,973:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:51:52,978:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:51:52,980:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 13:51:54,172:::INFO --- root  :: SERVER DOWN
+2022-07-05 13:51:56,195:::INFO --- root  :: --------------------------------
+2022-07-05 13:51:56,195:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:51:56,202:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 13:51:56,203:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:51:56,458:::INFO --- root  :: --------------------------------
+2022-07-05 13:51:56,458:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:51:56,463:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:51:56,465:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 13:52:06,575:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-05 13:52:06,602:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:52:06,843:::INFO --- root  :: --------------------------------
+2022-07-05 13:52:06,843:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:52:06,849:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:52:06,851:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 13:52:34,186:::INFO --- root  :: --------------------------------
+2022-07-05 13:52:34,186:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:52:34,193:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 13:52:34,194:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 13:52:34,459:::INFO --- root  :: --------------------------------
+2022-07-05 13:52:34,459:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 13:52:34,464:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 13:52:34,466:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 15:54:23,950:::INFO --- root  :: SERVER DOWN
+2022-07-05 15:54:26,766:::INFO --- root  :: --------------------------------
+2022-07-05 15:54:26,766:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 15:54:26,774:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 15:54:26,775:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 15:54:27,025:::INFO --- root  :: --------------------------------
+2022-07-05 15:54:27,025:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 15:54:27,030:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 15:54:27,033:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 15:55:05,192:::INFO --- root  :: SERVER DOWN
+2022-07-05 15:55:05,216:::INFO --- root  :: SERVER DOWN
+2022-07-05 15:55:09,760:::INFO --- root  :: --------------------------------
+2022-07-05 15:55:09,760:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 15:55:09,767:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 15:55:09,768:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 15:55:10,017:::INFO --- root  :: --------------------------------
+2022-07-05 15:55:10,017:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 15:55:10,023:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 15:55:10,025:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 15:55:48,116:::INFO --- root  :: SERVER DOWN
+2022-07-05 15:55:48,141:::INFO --- root  :: SERVER DOWN
+2022-07-05 16:21:39,949:::INFO --- root  :: --------------------------------
+2022-07-05 16:21:39,949:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 16:21:39,956:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-05 16:21:39,957:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-05 16:21:40,207:::INFO --- root  :: --------------------------------
+2022-07-05 16:21:40,207:::INFO --- root  :: SERVER ALMOST UP
+2022-07-05 16:21:40,212:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-05 16:21:40,214:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-05 16:40:12,259:::INFO --- root  :: SERVER DOWN
+2022-07-05 16:40:12,288:::INFO --- root  :: SERVER DOWN
+2022-07-06 11:10:44,039:::INFO --- root  :: --------------------------------
+2022-07-06 11:10:44,039:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 11:10:44,050:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-06 11:10:44,052:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 11:10:44,301:::INFO --- root  :: --------------------------------
+2022-07-06 11:10:44,302:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 11:10:44,306:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 11:10:44,311:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 11:11:01,698:::INFO --- root  :: SERVER DOWN
+2022-07-06 11:11:01,721:::INFO --- root  :: SERVER DOWN
+2022-07-06 11:11:05,327:::INFO --- root  :: --------------------------------
+2022-07-06 11:11:05,327:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 11:11:05,334:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-06 11:11:05,335:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 11:11:05,592:::INFO --- root  :: --------------------------------
+2022-07-06 11:11:05,593:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 11:11:05,598:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 11:11:05,600:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 12:17:24,697:::INFO --- root  :: SERVER DOWN
+2022-07-06 12:17:24,721:::INFO --- root  :: SERVER DOWN
+2022-07-06 13:37:15,566:::INFO --- root  :: --------------------------------
+2022-07-06 13:37:15,566:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 13:37:15,574:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-06 13:37:15,575:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 13:37:15,822:::INFO --- root  :: --------------------------------
+2022-07-06 13:37:15,822:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 13:37:15,827:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 13:37:15,829:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 16:23:03,880:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-06 16:23:03,916:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 16:23:04,239:::INFO --- root  :: --------------------------------
+2022-07-06 16:23:04,239:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 16:23:04,245:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 16:23:04,247:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 16:28:46,905:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-06 16:28:46,927:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 16:28:47,229:::INFO --- root  :: --------------------------------
+2022-07-06 16:28:47,229:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 16:28:47,234:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 16:28:47,237:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 17:31:08,493:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-06 17:31:08,519:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 17:31:08,791:::INFO --- root  :: --------------------------------
+2022-07-06 17:31:08,792:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 17:31:08,797:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 17:31:08,799:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 17:36:30,285:::INFO --- root  :: --------------------------------
+2022-07-06 17:36:30,285:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 17:36:30,294:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.45:9900 (Press CTRL+C to quit)
+2022-07-06 17:36:30,295:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 17:36:30,557:::INFO --- root  :: --------------------------------
+2022-07-06 17:36:30,557:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 17:36:30,562:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 17:36:30,564:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 17:37:42,714:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-06 17:37:42,736:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 17:37:42,984:::INFO --- root  :: --------------------------------
+2022-07-06 17:37:42,984:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 17:37:42,989:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 17:37:42,992:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-06 17:37:43,260:::INFO --- werkzeug  ::  * Detected change in 'C:\\Users\\MSI\\Desktop\\portal-base-code\\remote-fas-main\\app.py', reloading
+2022-07-06 17:37:43,283:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-06 17:37:43,533:::INFO --- root  :: --------------------------------
+2022-07-06 17:37:43,533:::INFO --- root  :: SERVER ALMOST UP
+2022-07-06 17:37:43,539:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-06 17:37:43,541:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-07 11:36:33,234:::INFO --- root  :: --------------------------------
+2022-07-07 11:36:33,235:::INFO --- root  :: SERVER ALMOST UP
+2022-07-07 11:36:33,245:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.46:9900 (Press CTRL+C to quit)
+2022-07-07 11:36:33,246:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-07 11:36:33,533:::INFO --- root  :: --------------------------------
+2022-07-07 11:36:33,533:::INFO --- root  :: SERVER ALMOST UP
+2022-07-07 11:36:33,539:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-07 11:36:33,544:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-07 13:00:36,934:::INFO --- root  :: SERVER DOWN
+2022-07-07 13:00:36,960:::INFO --- root  :: SERVER DOWN
+2022-07-07 13:00:41,079:::INFO --- root  :: --------------------------------
+2022-07-07 13:00:41,080:::INFO --- root  :: SERVER ALMOST UP
+2022-07-07 13:00:41,087:::INFO --- werkzeug  ::  * Running on all addresses (0.0.0.0)
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://127.0.0.1:9900
+ * Running on http://192.168.31.46:9900 (Press CTRL+C to quit)
+2022-07-07 13:00:41,088:::INFO --- werkzeug  ::  * Restarting with stat
+2022-07-07 13:00:41,333:::INFO --- root  :: --------------------------------
+2022-07-07 13:00:41,333:::INFO --- root  :: SERVER ALMOST UP
+2022-07-07 13:00:41,338:::WARNING --- werkzeug  ::  * Debugger is active!
+2022-07-07 13:00:41,340:::INFO --- werkzeug  ::  * Debugger PIN: 759-331-259
+2022-07-07 13:01:49,121:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /privacy-policy HTTP/1.1" 200 -
+2022-07-07 13:01:49,193:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/css/registration-form.css HTTP/1.1" 200 -
+2022-07-07 13:01:49,374:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/assets/bootstrap-4.3.1-dist/css/bootstrap.min.css HTTP/1.1" 200 -
+2022-07-07 13:01:49,483:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/js/jquery-3.3.1.slim.min.js HTTP/1.1" 200 -
+2022-07-07 13:01:49,483:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/js/popper.min.js HTTP/1.1" 200 -
+2022-07-07 13:01:49,489:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/assets/Logo-Relead-aligned.png HTTP/1.1" 200 -
+2022-07-07 13:01:49,509:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/assets/bootstrap-4.3.1-dist/js/bootstrap.min.js HTTP/1.1" 200 -
+2022-07-07 13:01:49,839:::INFO --- werkzeug  :: 127.0.0.1 - - [07/Jul/2022 13:01:49] "GET /static/favicon.ico HTTP/1.1" 200 -
