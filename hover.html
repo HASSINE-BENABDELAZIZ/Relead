@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vs.css" />
+    <script type="text/javascript" src="vs.js"></script>
+    <title>Relead-gaming</title>
     <style>
         .header {
             background: #e71f7b;
@@ -30,7 +33,7 @@
             margin: 2px;
         }
         
-        #mydiv {
+        #div1 {
             width: 400px;
             height: 400px;
             padding: 10px;
@@ -59,60 +62,41 @@
             opacity: 0.6;
             padding: 10px;
         }
+        
+        .div1 img {
+            height: 500px;
+            object-fit: cover;
+        }
     </style>
     <script>
-        function allowDrop(ev) {
-            ev.preventDefault();
-            console.log("its dragging");
-        }
-
-        function drag(ev) {
-            ev.dataTransfer.setData("key", 'dragElement');
-            console.log("its dragover");
-        }
-
-        function drop(ev) {
-            var dropLoc = document.getElementsById("image");
-            var id = ev.dataTransfer.getData("key");
-            console.log("its dropped");
-            console.log(id);
-            var myElement = document.getElementById(id);
-            console.log(myElement);
-            var myNewElement = document.createElement('img');
-            myNewElement.src = myElement.src;
-            dropLoc.appendChild(myNewElement);
-
+        function changeImg(imgchmanger) {
+            document.getElementById('slider').src = imgchmanger;
         }
     </script>
-    <title>Document</title>
 </head>
 
 <body>
     <div class="fullscreen-bg ">
         <div class="container d-flex align-items-center justify-content-between header">
             <img class="logo" alt="logo Relead" src="logo-Relead-final-blanc.png">
-
-            <h2 class="title">Vous pouvez bénéficier de 45 min de connexion haut débit en joueant ce jeux .</h2>
+            <div class="vertical-col"></div>
+            <h2 class="title">Vous pouvez bénéficier de 45 min de connexion haut débit en joueant ces jeux .</h2>
         </div>
     </div>
-    </br>
-    <div id="game" class="game">
-        <div class="imgs" id="imgs">
-            <img src="B.png " id="dragElement" draggable="true " ondragstart="drag(event) ">
-            <img src="A.png " id="dragElement" draggable="true " ondragstart="drag(event) ">
+    <div class="game">
 
-            <img src="C.png " id="dragElement" draggable="true " ondragstart="drag(event) ">
 
-            <img src="D.png " id="dragElement" draggable="true " ondragstart="drag(event) ">
+        <div class="imgs">
+
+            <img class="img" src="C:\Users\MSI\Desktop\stage\lesimages\A.png" onclick="changeImg('A.png')">
+
+            <img class="img" src="C:\Users\MSI\Desktop\stage\lesimages\B.png" onclick="changeImg('B.png')">
+
+            <img class="img" src="C:\Users\MSI\Desktop\stage\lesimages\R.png" onclick="changeImg('R.png')">
+
+            <img class="img" src="C:\Users\MSI\Desktop\stage\lesimages\D.png" onclick="changeImg('D.png')">
         </div>
-        <div id="mydiv" ondrop="drop(event) " ondragover="allowDrop(event) "></div>
-
+        <div class="div1">
+            <img src="C:\Users\MSI\Desktop\stage\lesimages\A.png" id="slider">
+        </div>
     </div>
-
-
-
-
-
-</body>
-
-</html>
