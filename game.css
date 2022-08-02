@@ -23,12 +23,6 @@
     margin: 2px;
 }
 
-.vertical-col {
-    border-left: 2px solid white;
-    height: 60px;
-    margin-top: 4px;
-}
-
 
 /*
         #slider {
@@ -74,7 +68,8 @@
                 padding: 10px;
             } */
 
-* {
+
+/** {
     margin: 0;
     padding: 0;
 }
@@ -124,16 +119,15 @@
 
 .image img {
     height: 400px;
-    object-fit: cover;
 }
+
 
 .image {
     padding: 10px;
     float: right;
-}
-
-html {
-    font-size: 11px;
+    border: 5px solid black;
+    height: 400px;
+    width: 400px;
 }
 
 .game .image {
@@ -155,6 +149,11 @@ html {
         justify-content: center;
     }
 }
+*/
 
-
+#mydiv {
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border: 5px solid red;
 }

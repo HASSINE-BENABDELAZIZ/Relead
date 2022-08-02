@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="game.css" />
+
+    <script>
+        function allowDrop(ev) {
+            ev.preventDefault();
+        }
+
+        function drag(ev) {
+            ev.dataTransfer.setData("key", ev.target.id);
+        }
+
+        function drop(ev) {
+            var id = ev.dataTransfer.getData("key");
+            ev.target.appendChild(document.getElementById(id));
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="mydiv " ondrop="drop(event) " ondragover="allowDrop(event) " border: 5px solid red></div>
+    </br>
+    <img src="B.png " id="dragElement " draggable="true " ondragstart="drag(event)" width="336" height="75">
+
+</body>
+
+</html>

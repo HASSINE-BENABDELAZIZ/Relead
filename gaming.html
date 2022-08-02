@@ -72,9 +72,16 @@
         }
 
         function drop(ev) {
+            var dropLoc = document.getElementsById("image");
             var id = ev.dataTransfer.getData("key");
-            ev.target.appendChild(document.getElementById(id));
             console.log("its dropped");
+            console.log(id);
+            var myElement = document.getElementById(id);
+            console.log(myElement);
+            var myNewElement = document.createElement('img');
+            myNewElement.src = myElement.src;
+            dropLoc.appendChild(myNewElement);
+
         }
     </script>
     <title>Document</title>
