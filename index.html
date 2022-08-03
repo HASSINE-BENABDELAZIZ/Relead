@@ -5,19 +5,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="vs.css" />
-    <script type="text/javascript" src="vs.js"></script>
     <title>Relead-gaming</title>
     <style>
-        body {
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        /*body {
+            background: linear-gradient(45deg, #FC466B, #3F5EFB);
             background: linear-gradient(45deg, #FC466B, #3F5EFB);
             height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-family: arial, sans-serif;
+            font-family: arial, sans-serif; */
+        
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        body {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
         }
         /*
-        
         .title {
             color: white;
             text-align: center;
@@ -26,26 +53,22 @@
             font-weight: 600;
         }
         */
-        
-        .title2 {
-            text-align: center;
-            margin: 100px;
-            color: #633e91;
-            font-weight: 600;
-        }
-        
-        .relead {
-            margin-top: 1px;
-        }
-        
-        .logo {
-            height: 80px;
-            width: 80px;
-            padding-top: 1px;
-            padding-left: 1px;
-        }
-        
-        a #button {
+        /*.title2 {
+                text-align: center;
+                margin: 100px;
+                color: #633e91;
+                font-weight: 600;
+            }
+            .relead {
+                margin-top: 1px;
+            }
+            .logo {
+                height: 80px;
+                width: 80px;
+                padding-top: 1px;
+                padding-left: 1px;
+            } */
+        /* #button {
             background: transparent;
             border: none;
             color: white;
@@ -68,7 +91,9 @@
             transition: 0.7s;
         }
         
-        .box {
+        */
+        
+        .container {
             background: rgba(255, 255, 255, .3);
             padding: 3rem;
             height: 320px;
@@ -79,21 +104,73 @@
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             -moz-backdrop-filter: blur(10px);
-            box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, .2);
+            box-shadow: 20px 20px 40 -6px rgba(0, 0, 0, .2);
             text-align: center;
+            width: 100%;
+            height: 100vh;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .box {
+            width: 90%;
+            max-width: 440px;
+            color: #fff;
+            padding: 50px 35px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+        }
+        
+        .logo {
+            height: 140px;
+            width: 140px;
+            padding: 20px;
+        }
+        
+        .title2 {
+            font-size: 25px;
+            padding: 20px;
+            color: #fff;
+        }
+        
+        #button {
+            background: transparent;
+            color: #FC466B;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            margin: 30px 0 10px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            -moz-backdrop-filter: blur(5px);
+        }
+        
+        #button:hover {
+            background-color: #633e91;
+            transition: 0.7s;
         }
     </style>
 </head>
 
 <body>
 
+    <div class="container" data-tilt>
 
-    <div class="box">
-        <h1 class="title2">les jeux disponibles</h1>
-        <div>
-            <a href="hover.html"><button id="button"  > Game Hover </button></a>
-            <a href="game.html"><button id="button"  >Game Drag and drop</button></a>
-            <a href="spin-wheel.html"><button id="button" >Spin Wheel</button></a>
+        <div class="box">
+            <img class="logo" alt="logo Relead" src="C:\Users\MSI\Desktop\stage\\logo-Relead-aligned.png">
+            <h1 class="title2"> You can benefit from 45 min of broadband connection by playing one of these games. </h1>
+            <div>
+                <a href="hover.html"><button id="button"  > Game Hover </button></a>
+                <a href="game.html"><button id="button"  >Game Drag and drop</button></a>
+                <a href="spin-wheel.html"><button id="button" >Spin Wheel</button></a>
+            </div>
         </div>
     </div>
 
