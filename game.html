@@ -90,18 +90,34 @@
         }
 
         function drag(ev) {
-            ev.dataTransfer.setData("key", 'dragElement');
+            ev.dataTransfer.setData("key", ev.target.id);
+
+
 
             console.log("its dragover");
         }
 
         function drop(ev) {
             var id = ev.dataTransfer.getData("key");
-            var x = document.getElementsByClassName('dragElement1');
-            var y = document.getElementsByClassName('dragElement2');
-            var z = document.getElementsByClassName('dragElement3');
-            var w = document.getElementsByClassName('dragElement4');
-            ev.target.appendChild(document.getElementById(id));
+            //var x = document.getElementsByClassName('dragElement1');
+            //var y = document.getElementsByClassName('dragElement2');
+            //var z = document.getElementsByClassName('dragElement3');
+            //var w = document.getElementsByClassName('dragElement4');
+            //ev.target.appendChild(document.getElementById(id));
+            //var myElement = document.getElementById(id);
+            //console.log(myElement);
+            ev.target.appendChild(document.getElementById(id).cloneNode(true));
+            //var myNewElement = document.createElement('img');
+            //myNewElement.src = myElement.src;
+            //ev.target.appendChild(myNewElement);
+            // var el = ev.target;
+            // if (!el.classList.contains('mydiv')) {
+            //  el.ev.target.parentNode;
+            //ev.target.remove();
+            //}
+            // el.appendChild(document.getElementById(data).cloneNode(true));
+            //}
+
 
 
 
@@ -135,7 +151,7 @@
 
             <div class="div4"><img src="C:\Users\MSI\Desktop\stage\lesimages\Screenshot_8.png" id="dragElement" class="dragElement4" draggable="true" ondragstart="drag(event) "></div>
         </div>
-        <div id="mydiv" ondrop="drop(event) " ondragover="allowDrop(event) "><img src="Screenshot_1.png" /> </div>
+        <div id="mydiv" ondrop="drop(event) " ondragover="allowDrop(event) "> </div>
 
     </div>
 
