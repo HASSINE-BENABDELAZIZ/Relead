@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/draganddrop.css" />
+    <script type="text/javascript" src="js/draganddrop.js"></script>
+
+</head>
+
+<body>
+    <div class="fullscreen-bg ">
+        <div class="container d-flex align-items-center justify-content-between header">
+            <img class="logo" alt="logo Relead" src="C:\Users\MSI\Desktop\stage\lesimages\logo-Relead-final-blanc.png">
+
+        </div>
+        <div id="game" class="game">
+
+            <div id="imgs" class="imgs">
+
+
+                <div> <img src="lesimages/Screenshot_5.png" draggable="true" ondragstart="drag(event)" id="lesimages/Screenshot_1.png" width="100" height="100">
+                    </img>
+
+                </div>
+
+                <div>
+
+                    <img src="lesimages/Screenshot_6.png" draggable="true" ondragstart="drag(event)" id="lesimages/Screenshot_2.png" width="100" height="100">
+
+                </div>
+                <div href="#">
+
+                    <img src="lesimages/Screenshot_7.png" draggable="true" ondragstart="drag(event)" id="lesimages/Screenshot_3.png" width="100" height="100">
+
+                </div>
+                <div>
+
+                    <img src="lesimages/Screenshot_8.png" draggable="true" ondragstart="drag(event)" id="lesimages/Screenshot_4.png" width="100" height="100">
+
+                </div>
+            </div>
+            <div id="div1" class="dropzone" ondrop="drop(event)" ondragover="allowDrop(event)"><img src="lesimages/Screenshot_1.png" width="100" height="100"></div>
+        </div>
+
+
+</body>
+
+</html>
