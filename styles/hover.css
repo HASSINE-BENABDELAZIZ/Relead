@@ -151,3 +151,71 @@ body {
         height: 340px;
     }
 }
+
+@media screen and (max-height: 600px) AND (min-height: 360px) {
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 250px;
+        padding: 10px;
+        border: none;
+    }
+    .game {
+        top: 60%;
+        left: 50%;
+        height: 300px;
+        width: 250px;
+        transform: translate(-50%, -50%);
+    }
+    .imgs img {
+        height: 40px;
+        width: 50px;
+        margin: 10px 0;
+        cursor: pointer;
+        opacity: 1;
+        padding: 10px;
+    }
+    .div1 img {
+        width: 150px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-height: 360px) AND (min-height: 200px) {
+    .logo {
+        height: 40px;
+        width: 40px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 260px;
+        height: 190px;
+        padding: 10px;
+        border: none;
+    }
+    .game {
+        top: 60%;
+        left: 50%;
+        height: 230px;
+        width: 250px;
+        transform: translate(-50%, -50%);
+    }
+    .imgs img {
+        height: 25px;
+        width: 25px;
+        margin: 8px 0;
+        cursor: pointer;
+        opacity: 1;
+        padding: 10px;
+    }
+    .div1 img {
+        width: 150px;
+        height: 180px;
+    }
+}
