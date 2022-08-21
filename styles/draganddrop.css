@@ -60,7 +60,7 @@ body {
 
 .game {
     top: 60%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     position: absolute;
     display: flex;
@@ -92,8 +92,8 @@ body {
         border: none;
     }
     .game {
-        top: 50%;
-        left: 50%;
+        top: 55%;
+        left: 45%;
         height: 430px;
         width: 300px;
         transform: translate(-50%, -50%);
@@ -121,8 +121,8 @@ body {
         border: none;
     }
     .game {
-        top: 50%;
-        left: 45%;
+        top: 55%;
+        left: 40%;
         height: 380px;
         width: 250px;
         transform: translate(-50%, -50%);
@@ -152,8 +152,8 @@ body {
         border: none;
     }
     .game {
-        top: 55%;
-        left: 50%;
+        top: 60%;
+        left: 45%;
         height: 300px;
         width: 250px;
         transform: translate(-50%, -50%);
@@ -183,8 +183,8 @@ body {
         border: none;
     }
     .game {
-        top: 50%;
-        left: 47%;
+        top: 55%;
+        left: 55%;
         height: 300px;
         width: 250px;
         transform: translate(-50%, -50%);
@@ -214,8 +214,8 @@ body {
         border: none;
     }
     .game {
-        top: 50%;
-        left: 50%;
+        top: 55%;
+        left: 45%;
         height: 300px;
         width: 250px;
         transform: translate(-50%, -50%);
@@ -245,8 +245,8 @@ body {
         border: none;
     }
     .game {
-        top: 50%;
-        left: 50%;
+        top: 55%;
+        left: 45%;
         height: 300px;
         width: 250px;
         transform: translate(-50%, -50%);
