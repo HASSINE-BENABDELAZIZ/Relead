@@ -93,7 +93,7 @@ body {
     }
     .game {
         top: 60%;
-        left: 40%;
+        left: 45%;
         height: 430px;
         width: 300px;
         transform: translate(-50%, -50%);
@@ -103,7 +103,7 @@ body {
         width: 80px;
     }
     #div1>img {
-        width: 320px;
+        width: 340px;
         height: 440px;
     }
 }
@@ -134,7 +134,7 @@ body {
         opacity: 1;
     }
     #div1>img {
-        width: 240px;
+        width: 250px;
         height: 340px;
     }
 }
@@ -165,7 +165,7 @@ body {
         opacity: 1;
     }
     #div1>img {
-        width: 180px;
+        width: 200px;
         height: 280px;
     }
 }
