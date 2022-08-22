@@ -81,34 +81,30 @@ body {
 
 @media screen and (max-width: 550px) and (min-width: 300px) {
     .logo {
-        height: 70px;
-        width: 70px;
+        height: 80px;
+        width: 80px;
         margin: 2px;
         left: 50%;
     }
     #div1 {
         width: 400px;
         height: 400px;
-        padding: 10px;
+        border: none;
     }
     .game {
-        top: 70%;
-        left: 55%;
-        height: 480px;
-        width: 340px;
+        top: 60%;
+        left: 50;
+        height: 430px;
+        width: 300px;
         transform: translate(-50%, -50%);
-        flex-direction: row;
-        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
     }
     .imgs img {
-        height: 100px;
-        width: 60px;
-        cursor: pointer;
-        opacity: 1;
+        height: 110px;
+        width: 80px;
     }
-    .div1 img {
-        width: 250px;
-        height: 400px;
+    #div1>img {
+        width: 340px;
+        height: 440px;
     }
 }
 
