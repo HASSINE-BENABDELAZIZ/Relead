@@ -220,8 +220,8 @@ body {
 
 @media screen and (max-height: 300px) AND (min-height: 200px) {
     .logo {
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
         margin: 2px;
         left: 50%;
     }
@@ -238,13 +238,13 @@ body {
         transform: translate(-50%, -50%);
     }
     .imgs img {
-        height: 25px;
+        height: 20px;
         width: 40px;
         cursor: pointer;
         opacity: 1;
     }
     .div1 img {
         width: 200px;
-        height: 100px;
+        height: 80px;
     }
 }
