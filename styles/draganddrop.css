@@ -263,7 +263,7 @@ body {
     }
 }
 
-@media screen and (max-height: 300px) AND (min-height: 240px) {
+@media screen and (max-height: 300px) AND (min-height: 200px) {
     .logo {
         height: 30px;
         width: 30px;
@@ -276,7 +276,7 @@ body {
         border: none;
     }
     .game {
-        top: 60%;
+        top: 70%;
         left: 40%;
         height: 300px;
         width: 250px;
