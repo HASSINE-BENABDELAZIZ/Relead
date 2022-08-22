@@ -18,21 +18,14 @@ body {
     left: 0;
     overflow: hidden;
     background-color: whitesmoke;
-    background: #e71f7b;
-    background: -webkit-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
-    background: -o-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
-    background: -moz-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
-    background: linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
-    opacity: 70%;
-    color: white;
     padding: 1% 1%;
 }
 
 .title {
-    color: white;
+    color: black;
     text-align: center;
     margin: 5px;
-    color: white;
+    color: black;
     font-weight: 600;
 }
 
