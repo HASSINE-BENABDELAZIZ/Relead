@@ -105,7 +105,6 @@ body {
         width: 400px;
         height: 400px;
         padding: 10px;
-        border: 5px solid black;
     }
     .game {
         top: 70%;
@@ -114,8 +113,7 @@ body {
         width: 340px;
         transform: translate(-50%, -50%);
         flex-direction: row;
-        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px;
-        background: rgba(255, 255, 255, 0.4);
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
     }
     .imgs img {
         height: 100px;
