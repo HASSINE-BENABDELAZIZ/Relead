@@ -265,8 +265,8 @@ body {
 
 @media screen and (max-height: 300px) AND (min-height: 200px) {
     .logo {
-        height: 30px;
-        width: 30px;
+        height: 25px;
+        width: 25px;
         margin: 2px;
         left: 50%;
     }
