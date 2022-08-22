@@ -10,7 +10,7 @@ function drop(ev) {
 
     var data = ev.dataTransfer.getData("text");
     var el = ev.target;
-    if (!el.classList.contains('dropzone')) {
+    if (!el.classList.contains('div1')) {
         el = ev.target.parentNode;
         ev.target.remove();
     }
