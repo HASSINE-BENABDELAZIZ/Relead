@@ -96,8 +96,8 @@ body {
 
 @media screen and (max-width: 550px) and (min-width: 300px) {
     .logo {
-        height: 120px;
-        width: 120px;
+        height: 80px;
+        width: 80px;
         margin: 2px;
         left: 50%;
     }
