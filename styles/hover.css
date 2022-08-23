@@ -107,7 +107,7 @@ body {
         padding: 10px;
     }
     .game {
-        top: 70%;
+        top: 60%;
         left: 55%;
         height: 480px;
         width: 340px;
@@ -116,14 +116,14 @@ body {
         grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
     }
     .imgs img {
-        height: 105px;
-        width: 85px;
+        height: 110px;
+        width: 90px;
         cursor: pointer;
         opacity: 1;
     }
     .div1 img {
-        width: 270px;
-        height: 420px;
+        width: 280px;
+        height: 440px;
     }
 }
 
