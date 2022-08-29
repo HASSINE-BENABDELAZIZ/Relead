@@ -67,6 +67,18 @@ body {
     z-index: -100;
 }
 
+.div1 img {
+    object-fit: cover;
+    float: left;
+    border: none;
+}
+
+.imgs img {
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+}
+
 
 /*
 #div1 {
