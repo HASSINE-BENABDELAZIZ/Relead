@@ -13,7 +13,7 @@ function drop(ev) {
     if (!el.classList.contains('div1')) {
         el = ev.target.parentNode;
         ev.target.remove();
-        
+
     }
     //el.appendChild(document.getElementById(data).cloneNode(true));
     var myElement = document.getElementById(data);

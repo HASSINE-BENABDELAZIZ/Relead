@@ -118,7 +118,7 @@ body {
     .imgs img {
         height: 125px;
         width: 300px;
-        cursor: pointer;
+        cursor: help;
         opacity: 1;
     }
     .div1 img {
