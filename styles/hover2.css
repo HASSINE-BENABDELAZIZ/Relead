@@ -1,0 +1,401 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.header {
+    background: #e71f7b;
+    background: -webkit-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: -o-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: -moz-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    opacity: 70%;
+    color: white;
+    padding: 1% 1%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 2px;
+}
+
+.vertical-col {
+    height: 20px;
+    margin-top: 4px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    margin: 2px;
+}
+
+#div1 {
+    width: 400px;
+    height: 400px;
+}
+
+.game {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    transition: 0.3s;
+    flex-direction: row;
+    grid-template-columns: 1fr 10px 1fr 10px 1fr 10px;
+}
+
+.imgs img {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+}
+
+.imgs img :hover {
+    opacity: 2;
+}
+
+.div1 img {
+    object-fit: cover;
+    float: left;
+    width: 300px;
+    height: 400px;
+    border: none;
+}
+
+@media screen and (width: 414px) and (height: 896px) {
+    /* iphone XR , XS Max */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 94px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 320px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 375px) and (height: 812px) {
+    /* iphone X , XS  */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 95px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 280px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 412px) and (height: 846px) {
+    /* galaxy s9 plus , s8 plus  */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 92px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 320px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 360px) and (height: 740px) {
+    /* galaxy S9, Note 8 , S8 , s9+ */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 80px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 280px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 393px) and (height: 786px) {
+    /* pixel 3 , 3XL */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 93px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 300px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+    /* iphone 8 plus, 7 plus, 6s plus */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 94px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 320px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 375px) and (height: 667px) {
+    /* iphone 8 , 7 , 6s , 6  */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 95px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 280px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 360px) and (height: 640px) {
+    /* galaxy note 3 , galaxy s5 , microsoft lumia 550/950 */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 80px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 280px;
+        height: 440px;
+    }
+}
+
+@media screen and (width: 768px) and (height: 1280px) {
+    /* IpAD, iPAD  MINI */
+    .logo {
+        height: 70px;
+        width: 70px;
+        margin: 2px;
+        left: 50%;
+    }
+    #div1 {
+        width: 400px;
+        height: 400px;
+        padding: 10px;
+    }
+    .game {
+        top: 50%;
+        left: 55%;
+        height: 480px;
+        width: 340px;
+        transform: translate(-50%, -50%);
+        flex-direction: row;
+        grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
+    }
+    .imgs img {
+        height: 110px;
+        width: 94px;
+        cursor: pointer;
+        opacity: 1;
+    }
+    .div1 img {
+        width: 320px;
+        height: 440px;
+    }
+}
