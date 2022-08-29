@@ -40,7 +40,8 @@ body {
 }
 
 .vertical-col {
-    height: 20px;
+    border-left: 2px solid white;
+    height: 60px;
     margin-top: 4px;
 }
 
