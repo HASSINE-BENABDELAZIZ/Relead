@@ -117,7 +117,7 @@ body {
     }
     .imgs img {
         height: 125px;
-        width: 120px;
+        width: 300px;
         cursor: pointer;
         opacity: 1;
     }
