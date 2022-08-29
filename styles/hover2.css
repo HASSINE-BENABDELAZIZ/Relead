@@ -116,14 +116,14 @@ body {
         grid-template-columns: 1fr 10px 1fr 10px 1fr 10px
     }
     .imgs img {
-        height: 110px;
-        width: 114px;
+        height: 125px;
+        width: 120px;
         cursor: pointer;
         opacity: 1;
     }
     .div1 img {
         width: 300px;
-        height: 440px;
+        height: 500px;
     }
 }
 
