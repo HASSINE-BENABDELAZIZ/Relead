@@ -109,7 +109,6 @@ body {
     }
     .game {
         top: 50%;
-        left: 40%;
         height: 480px;
         width: 340px;
         transform: translate(-50%, -50%);
@@ -118,7 +117,7 @@ body {
     }
     .imgs img {
         height: 110px;
-        width: 130px;
+        width: 114px;
         cursor: pointer;
         opacity: 1;
     }
