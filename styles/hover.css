@@ -139,11 +139,13 @@ body {
         border: none;
     }
     .game {
-        top: 60%;
-        left: 45%;
-        height: 380px;
-        width: 250px;
-        transform: translate(-50%, -50%);
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        background-color: whitesmoke;
     }
     .imgs img {
         height: 90px;
@@ -157,7 +159,8 @@ body {
     }
 }
 
-@media screen and (min-height: 600px) {
+
+/*@media screen and (min-height: 600px) {
     .game {
         top: 55%;
         left: 35%;
@@ -167,7 +170,7 @@ body {
     }
 }
 
-@media screen and (max-height: 600px) AND (min-height: 360px) {
+/* @media screen and (max-height: 600px) AND (min-height: 360px) {
     .logo {
         height: 70px;
         width: 70px;
@@ -253,3 +256,4 @@ body {
         height: 140px;
     }
 }
+*/
