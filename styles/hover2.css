@@ -109,7 +109,7 @@ body {
     }
     .game {
         top: 50%;
-        left: 50%;
+        left: 40%;
         height: 480px;
         width: 340px;
         transform: translate(-50%, -50%);
@@ -267,8 +267,8 @@ body {
 @media screen and (width: 414px) and (height: 736px) {
     /* iphone 8 plus, 7 plus, 6s plus */
     .logo {
-        height: 40px;
-        width: 40px;
+        height: 70px;
+        width: 70px;
         margin: 2px;
         left: 50%;
     }
@@ -278,8 +278,8 @@ body {
         padding: 10px;
     }
     .game {
-        top: 60%;
-        left: 55%;
+        top: 50%;
+        left: 50%;
         height: 480px;
         width: 340px;
         transform: translate(-50%, -50%);
