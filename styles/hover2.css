@@ -108,7 +108,7 @@ body {
         padding: 10px;
     }
     .game {
-        top: 135px;
+        top: 50%;
         height: 480px;
         width: 340px;
         transform: translate(-50%, -50%);
@@ -141,7 +141,7 @@ body {
         padding: 10px;
     }
     .game {
-        top: 135px;
+        top: 50%;
         height: 480px;
         width: 340px;
         transform: translate(-50%, -50%);
@@ -174,7 +174,7 @@ body {
         padding: 10px;
     }
     .game {
-        top: 135px;
+        top: 50%;
         height: 480px;
         width: 340px;
         transform: translate(-50%, -50%);
