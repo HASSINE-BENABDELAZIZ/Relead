@@ -1,0 +1,103 @@
+/* Ad Panel style */
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: whitesmoke;
+}
+
+.game {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+}
+
+.div1 img {
+    float: left;
+    border: none;
+}
+
+.imgs img {
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+}
+
+audio::-webkit-media-controls-timeline,
+video::-webkit-media-controls-timeline {
+    display: none;
+}
+
+#getInternetBtn {
+    right: 0%;
+    bottom: 10%;
+    position: fixed;
+    z-index: 1;
+    width: 43%;
+    padding: 1% 1%;
+    font-size: 100%;
+    color: white;
+    background: #e71f7b;
+    background: -webkit-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: -o-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: -moz-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    opacity: 90%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.header {
+    background: #e71f7b;
+    background: -webkit-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: -o-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: -moz-linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    background: linear-gradient(-60deg, #e71f7b, #633e91, #633e91);
+    opacity: 70%;
+    color: white;
+    padding: 1% 1%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+    margin: 2px;
+}
+
+.vertical-col {
+    border-left: 2px solid white;
+    height: 60px;
+    margin-top: 4px;
+}
+
+.redirect-link {
+    font-size: medium;
+    font-weight: 900;
+    right: 2%;
+    top: 12%;
+    position: fixed;
+    z-index: 1;
+    cursor: pointer;
+    color: #e71f7b;
+    background: none;
+    border: none;
+    padding: 0;
+    outline: inherit;
+}
