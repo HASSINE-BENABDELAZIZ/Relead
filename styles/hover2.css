@@ -117,8 +117,8 @@ body {
     }
     .imgs img {
         height: 125px;
-        width: 300px;
-        cursor: help;
+        width: 120px;
+        cursor: pointer;
         opacity: 1;
     }
     .div1 img {
