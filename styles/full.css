@@ -40,8 +40,9 @@
     opacity: 1;
 }
 
-.imgs {
+.imgs img {
     height: 100%;
+    width: 100%;
 }
 
 .imgs img :hover {
@@ -53,6 +54,7 @@
     float: left;
     border: none;
     height: 100%;
+    width: 100%;
 }
 
 .header {
