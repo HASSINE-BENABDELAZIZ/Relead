@@ -38,13 +38,13 @@
     cursor: pointer;
     display: block;
     opacity: 1;
-    height: 29.5%;
+    height: 29%;
     width: 100%;
 }
 
 .imgs {
     height: 100%;
-    width: 100%;
+    width: 40%;
 }
 
 .imgs img :hover {
@@ -56,7 +56,7 @@
     float: left;
     border: none;
     height: 100%;
-    width: 100%;
+    width: 60%;
 }
 
 .header {
