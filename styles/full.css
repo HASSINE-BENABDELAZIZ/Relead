@@ -43,7 +43,8 @@
 
 .imgs {
     height: 100%;
-    width: 40%;
+    width: 100%;
+    background-color: green;
 }
 
 .imgs img :hover {
@@ -56,6 +57,7 @@
     border: none;
     height: 100%;
     width: 60%;
+    background-color: blue;
 }
 
 .header {
