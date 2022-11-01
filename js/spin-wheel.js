@@ -50,7 +50,7 @@ let myChart = new Chart(wheel, {
     type: "pie",
     data: {
         //Labels(values which are to be displayed on chart)
-        labels: ["OBJET 1", "OBJET 2", "OBJET 3", "OBJET 4", "OBJET 5", "OBJET 6"],
+        labels: ["1", "2", "3", "4", "5", "6"],
         //Settings for dataset/pie
         datasets: [{
             backgroundColor: pieColors,
